@@ -1,0 +1,93 @@
+<html>
+    
+    <head>
+		<!--<meta http-equiv="refresh" content="10">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+			*{
+				box-sizing: border-box;
+			}
+            html{
+                scroll-behavior : smooth;
+            }
+            .container{
+                display:block;
+                background-color: lightblue;
+                text-align: center;
+                color: purple;
+                border: 2px solid yellow;
+                padding: 30px;
+                margin: 4px;
+                height:571px;
+                display : block;
+            }
+            .wec{
+                color: black;
+                font-family: verdana;
+                {% comment %} text-decoration : dashed; {% endcomment %}
+
+            }
+            .wec:hover{
+                text-decoration : None;
+                color: red;
+                text
+            }
+            p {
+                font-size : 24px;
+                color: orange;
+                text-align: center;
+              }
+			footer {
+					  background-color: #777;
+					  padding: 10px;
+					  text-align: center;
+					  color: white;
+					  ;
+			} 
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			{% comment %} @media (max-width: 600px) {
+			  nav, article {
+				width: 100%;
+				height: auto;
+			  }
+			}			 {% endcomment %}
+        </style>
+        <title>this is page title</title>
+    </head>
+    <body>
+        <div id="_1" class="container">    <h1>This is my 1st Division</h1>
+            <p>Welcome to the mahh first divsions website.<br>
+             so click here to jump on the different pages.<br></p>
+                    
+                    <a class="wec" href="#_2">You can click here to jump on 2nd page</a><br>
+                    <a class="wec" href="#_3">You can click here to jump on 3rd page</a><br>
+                    <a class="wec" href="#_4">You can click here to jump on 4th page</a><br>
+                    <a class="wec" href="#_5">You can click here to jump on 5th page</a><br>
+
+
+        </div><hr>        
+        <div id="_2" class="container">    <h1>This is my 2nd Division</h1><a class="wec" href="#_1">You can click here to jump on 1st page</a><br>
+                    
+                    <a class="wec" href="#_3">You can click here to jump on 3rd page</a><br>
+                    <a class="wec" href="#_4">You can click here to jump on 4th page</a><br>
+                    <a class="wec" href="#_5">You can click here to jump on 5th page</a><br></div><hr>
+        <div id="_3" class="container">    <h1>This is my 3rd Division</h1><a class="wec" href="#_1">You can click here to jump on 1st page</a><br>
+                    <a class="wec" href="#_2">You can click here to jump on 2nd page</a><br>
+                   
+                    <a class="wec" href="#_4">You can click here to jump on 4th page</a><br>
+                    <a class="wec" href="#_5">You can click here to jump on 5th page</a><br></div><hr>
+        <div id="_4" class="container">    <h1>This is my 4th Division</h1><a class="wec" href="#_1">You can click here to jump on 1st page</a><br>
+                    <a class="wec" href="#_2">You can click here to jump on 2nd page</a><br>
+                    <a class="wec" href="#_3">You can click here to jump on 3rd page</a><br>
+                    
+                    <a class="wec" href="#_5">You can click here to jump on 5th page</a><br></div><hr>
+        <div id="_5" class="container">    <h1>This is my 5th Division</h1><a class="wec" href="#_1">You can click here to jump on 1st page</a><br>
+                    <a class="wec" href="#_2">You can click here to jump on 2nd page</a><br>
+                    <a class="wec" href="#_3">You can click here to jump on 3rd page</a><br>
+                    <a class="wec" href="#_4">You can click here to jump on 4th page</a><br>
+		<footer>
+			<p>Footer</p>
+		</footer>			
+                            
+    </body>    
+</html>

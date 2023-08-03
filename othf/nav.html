@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .container{
+            margin: 0;
+            height: 40px;
+            align-items: center;
+            border: 2px solid rgb(43, 255, 0);
+            background-color: rgb(247, 248, 248);
+            border-radius: 28px;
+        }
+        ul{
+            margin: 3px;
+            list-style: none;
+            display: flex;
+        }
+        li{
+            border: 2px solid purple;
+            margin:2px;
+            padding: 2px;
+        }
+        li>a{
+            text-decoration: none;
+            font-size: 15px;
+            color:rgb(200, 214, 200);
+        }
+        li>a:hover{
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+            font-size:17px;
+        }
+        li>a.active{
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Performance</a></li>
+            <li><a href="#">Why You should be with Us</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <style>
+        body{
+            background-image:url('./images/img00.png');
+            background-repeat:no-repeat;
+            background-size:100%;
+            background-attachment:fixed;
+        }
+        .container
+         {
+            display: flex;
+            flex-direction: column;
+            outline: 1px solid green;
+            min-height: 400px;
+            width: 100px;
+            justify-content: flex-start;
+}
+p:last-of-type {
+  margin-left: auto;
+}
+p {
+  height: 50px;
+  background-color: blue;
+  margin: 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p class="end"></p>
+      </div>
+<h2>Image as a Link</h2>
+
+<p>The image is a link. You can click on it.</p>
+
+<script>
+  // smooth srolling
+     $(document).ready(function () {
+        $('#webd').mouseenter(function () {
+            $('#opis').load('portfolio/webdDescription.htm');
+            }
+            );
+        $('#webd').mouseout(function () {
+            $('#opis').load('portfolio/defaultDescription.htm');
+            }
+            );
+    });
+</script>
+
+</body>
