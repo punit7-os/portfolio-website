@@ -1,6 +1,7 @@
 html{
-     scroll-behavior: auto;
-    scroll-behavior : smooth;
+     /* scroll-behavior: auto; */
+     scroll-behavior : smooth;
+     background-color: #e4e4e4;
 }
 body {
     margin: 0;
@@ -12,10 +13,10 @@ body {
     margin: 4px 2px 2px 2px;
     padding: 3px;
     padding: auto;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     display: block;
     height: 97vh;
-    width: 97vw;
+    width: 99vw;
     align-items: center;
     
 }
@@ -163,6 +164,7 @@ li>a.active {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    margin: 2px 22px;
     /* font-size: larger; */
     
     } 
@@ -175,7 +177,7 @@ li>a.active {
         overflow: hidden;
         border-right: .15em solid pink;
         white-space: nowrap;
-        margin: 0 auto;
+        margin: 35px auto;
         letter-spacing: .10em;
         animation: 
           typing 5.5s steps(40),
